@@ -1,0 +1,29 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.0
+# 2024-02-14
+
+# User-defined execution parameters
+[rdx]
+spectrograph = gemini_gmos_north_ham
+
+# Setup
+setup read
+    Setup B:
+         dispname: R400+_G5325
+         dichroic: OG515_G0330
+           decker: 0.75arcsec
+        dispangle: 750.0
+          datasec: "[1:256,1:512]"
+setup end
+
+# Read in the data
+data read
+ path ../api/test/ut220321
+|            filename |                 frametype |               ra |               dec |    target |    dispname |     decker | binning |              mjd |          airmass | exptime |    dichroic | dispangle |       datasec |
+| S20220321S0025.fits |                  arc,tilt |        166.94275 | -46.5446472222222 |      CuAr | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21645360601 | 1.19679973112685 |    16.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+| S20220321S0040.fits |                  arc,tilt | 161.644208333333 |  13.7546944444444 |      CuAr | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21656743596 | 1.46315874241568 |    16.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+| S20220321S0024.fits | pixelflat,illumflat,trace |        166.94275 | -46.5446472222222 |  GCALflat | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21645308368 | 1.19770443232848 |     1.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+| S20220321S0039.fits | pixelflat,illumflat,trace | 161.644208333333 |  13.7546944444444 |  GCALflat | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21656691469 | 1.46408721171063 |     1.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+| S20220321S0026.fits |                   science |        166.94275 | -46.5446472222222 | SN2022ewh | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21645508954 |  1.1809296078692 |   800.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+| S20220321S0041.fits |                   science | 161.644208333333 |  13.7546944444444 | SN2022ewj | R400+_G5325 | 0.75arcsec |     2,2 | 2022.21656891368 | 1.45414307027603 |   400.0 | OG515_G0330 |     750.0 | [1:256,1:512] |
+data end
+

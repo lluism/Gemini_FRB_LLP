@@ -1,0 +1,12 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.0
+# 2024-02-14
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = gemini_gmos_north_ham
+
+# Read in the data
+data read
+ ../api/test/ut220321/*.fits*
+data end
+

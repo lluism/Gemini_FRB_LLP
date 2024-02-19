@@ -1,0 +1,29 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.0
+# 2024-02-14
+
+# User-defined execution parameters
+[rdx]
+spectrograph = gemini_gmos_north_ham
+
+# Setup
+setup read
+    Setup C:
+         dispname: B600+_G5323
+         dichroic: open1-6
+           decker: 0.75arcsec
+        dispangle: 530.0
+          datasec: "[1:256,1:512]"
+setup end
+
+# Read in the data
+data read
+ path ../api/test/ut220321
+|            filename |                 frametype |               ra |               dec |    target |    dispname |     decker | binning |              mjd |          airmass | exptime | dichroic | dispangle |       datasec |
+| S20220321S0019.fits |                  arc,tilt |        166.94275 | -46.5446472222222 |      CuAr | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21639451142 | 1.27832828154435 |    20.0 |  open1-6 |     530.0 | [1:256,1:512] |
+| S20220321S0034.fits |                  arc,tilt | 161.644208333333 |  13.7546944444444 |      CuAr | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21653374201 | 1.51153778579503 |    20.0 |  open1-6 |     530.0 | [1:256,1:512] |
+| S20220321S0018.fits | pixelflat,illumflat,trace |        166.94275 | -46.5446472222222 |  GCALflat | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21639382009 | 1.27983520340532 |     4.0 |  open1-6 |     530.0 | [1:256,1:512] |
+| S20220321S0033.fits | pixelflat,illumflat,trace | 161.644208333333 |  13.7546944444444 |  GCALflat | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21653304488 | 1.51315582404987 |     4.0 |  open1-6 |     530.0 | [1:256,1:512] |
+| S20220321S0020.fits |                   science |        166.94275 | -46.5446472222222 | SN2022ewh | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21639611801 | 1.25709265781212 |   800.0 |  open1-6 |     530.0 | [1:256,1:512] |
+| S20220321S0035.fits |                   science | 161.644208333333 |  13.7546944444444 | SN2022ewj | B600+_G5323 | 0.75arcsec |     2,2 | 2022.21653535599 |  1.4994358115465 |   400.0 |  open1-6 |     530.0 | [1:256,1:512] |
+data end
+
