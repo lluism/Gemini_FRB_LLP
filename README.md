@@ -1,10 +1,12 @@
 ## Gemini FRB Large and Long Program Code Repository
 
-(Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp)
 
 Code, tools, and examples for planning and submitting observations, collecting data, and running pypeit in support of the Gemini FRB LLP (PI T. Eftekhari).
 
+Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
+
+#
 DOWNLOADING GEMINI DATA 
 
 The important part is to obtain and save the cookie of the gemini search website. This cookie is used for downloading 
@@ -19,7 +21,7 @@ Once the cookie is saved, follow the instructions in api/Example.md to run the .
 Following the example this will save the downloaded data in a folder named /test.
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# 
 
 RUNNING PYPEIT
 
@@ -40,8 +42,9 @@ I have added -o string in the code to run_pypeit overwritting the previous runs
 
 
 
+#
 
-Known issues: 
+KNOWN ISSUES 
 
 2/10/2024: 
 
