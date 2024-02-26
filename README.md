@@ -25,9 +25,6 @@ Following the example this will save the downloaded data in a folder named /test
 
 RUNNING PYPEIT
 
-The data saved in /test is split into folders but you should put everything in the same folder (e.g., /test) for pypeit 
-to find it without issues later.
-
 The script controlling the pypeit run is /pypeit/reduce_gmos.py
 
 First enter the directory where all the observational data is (e.g., cd api/test), we will run pypeit from there. 
