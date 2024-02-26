@@ -5,7 +5,6 @@ Code, tools, and examples for planning and submitting observations, collecting d
 
 Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
-Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
 
 #
