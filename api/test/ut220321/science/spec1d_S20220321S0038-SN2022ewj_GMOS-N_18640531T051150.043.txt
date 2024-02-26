@@ -1,0 +1,4 @@
+| slit |                    name | spat_pixpos | spat_fracpos | box_width | opt_fwhm |   s2n | wv_rms |
+|  258 | SPAT0261-SLIT0258-MSC01 |       260.7 |        0.507 |      3.00 |    1.185 | 44.94 |  0.584 |
+|  258 | SPAT0261-SLIT0258-MSC01 |       260.7 |        0.507 |      3.00 |    1.185 | 44.94 |  0.584 |
+|  258 | SPAT0261-SLIT0258-MSC01 |       260.7 |        0.507 |      3.00 |    1.185 | 44.94 |  0.584 |

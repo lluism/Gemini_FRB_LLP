@@ -1,10 +1,12 @@
 ## Gemini FRB Large and Long Program Code Repository
 
-(Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp)
 
 Code, tools, and examples for planning and submitting observations, collecting data, and running pypeit in support of the Gemini FRB LLP (PI T. Eftekhari).
 
+Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
+
+#
 DOWNLOADING GEMINI DATA 
 
 The important part is to obtain and save the cookie of the gemini search website. This cookie is used for downloading 
@@ -19,20 +21,15 @@ Once the cookie is saved, follow the instructions in api/Example.md to run the .
 Following the example this will save the downloaded data in a folder named /test.
 
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# 
 
 RUNNING PYPEIT
 
-The data saved in /test is split into folders but you should put everything in the same folder (e.g., /test) for pypeit 
-to find it without issues later.
+First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
 
-The script controlling the pypeit run is /pypeit/reduce_gmos.py
+The script controlling the pypeit run is /pypeit/gmos_reduce.py
 
-First enter the directory where all the observational data is (e.g., cd api/test), we will run pypeit from there. 
-
-
-
-this is an example for running reduce_gmos.py:      python reduce_gmos.py ../api/test/ut220321/  gmos_north  
+this is an example for running gmos_reduce.py from the /pypeit/ folder:      python gmos_reduce.py ../api/test/ut220321/  gmos_north  
 
 I have added -o string in the code to run_pypeit overwritting the previous runs
 
@@ -40,8 +37,9 @@ I have added -o string in the code to run_pypeit overwritting the previous runs
 
 
 
+#
 
-Known issues: 
+KNOWN ISSUES 
 
 2/10/2024: 
 
@@ -52,4 +50,10 @@ needs to be corrected.
 Current Calibrations folder appears named Masters. I believe this is because I am using an old Pypeit version. 
 The Science folder appears named science (lower case). I believe this is because I am using an old Pypeit version. 
 
+
+
+# 
+TO DO
+
+update the coadding and fluxing parts. Add the upload to CANFAR. allow user interaction between steps.
 

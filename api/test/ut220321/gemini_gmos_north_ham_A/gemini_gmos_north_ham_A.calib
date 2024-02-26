@@ -1,0 +1,67 @@
+A:
+  --:
+    datasec: '"[1:256,1:512]"'
+    decker: 0.75arcsec
+    dichroic: open1-6
+    dispangle: 500.0
+    dispname: B600+_G5323
+  1:
+    align: []
+    arc:
+    - ../api/test/ut220321/S20220321S0022.fits
+    - ../api/test/ut220321/S20220321S0037.fits
+    bias:
+    - ../api/test/ut220321/S20220317S0109.fits
+    - ../api/test/ut220321/S20220317S0110.fits
+    - ../api/test/ut220321/S20220317S0111.fits
+    - ../api/test/ut220321/S20220317S0112.fits
+    - ../api/test/ut220321/S20220317S0113.fits
+    - ../api/test/ut220321/S20220319S0121.fits
+    - ../api/test/ut220321/S20220319S0122.fits
+    - ../api/test/ut220321/S20220319S0123.fits
+    - ../api/test/ut220321/S20220319S0124.fits
+    - ../api/test/ut220321/S20220319S0125.fits
+    - ../api/test/ut220321/S20220320S0061.fits
+    - ../api/test/ut220321/S20220320S0062.fits
+    - ../api/test/ut220321/S20220320S0063.fits
+    - ../api/test/ut220321/S20220320S0064.fits
+    - ../api/test/ut220321/S20220320S0065.fits
+    - ../api/test/ut220321/S20220322S0173.fits
+    - ../api/test/ut220321/S20220322S0174.fits
+    - ../api/test/ut220321/S20220322S0175.fits
+    - ../api/test/ut220321/S20220322S0176.fits
+    - ../api/test/ut220321/S20220322S0177.fits
+    - ../api/test/ut220321/S20220323S0266.fits
+    - ../api/test/ut220321/S20220323S0267.fits
+    - ../api/test/ut220321/S20220323S0268.fits
+    - ../api/test/ut220321/S20220323S0269.fits
+    - ../api/test/ut220321/S20220323S0270.fits
+    - ../api/test/ut220321/S20220324S0619.fits
+    - ../api/test/ut220321/S20220324S0620.fits
+    - ../api/test/ut220321/S20220324S0621.fits
+    - ../api/test/ut220321/S20220324S0622.fits
+    - ../api/test/ut220321/S20220324S0623.fits
+    - ../api/test/ut220321/S20220325S0087.fits
+    - ../api/test/ut220321/S20220325S0088.fits
+    - ../api/test/ut220321/S20220325S0089.fits
+    - ../api/test/ut220321/S20220325S0090.fits
+    - ../api/test/ut220321/S20220325S0091.fits
+    dark: []
+    illumflat:
+    - ../api/test/ut220321/S20220321S0021.fits
+    - ../api/test/ut220321/S20220321S0036.fits
+    pinhole: []
+    pixelflat:
+    - ../api/test/ut220321/S20220321S0021.fits
+    - ../api/test/ut220321/S20220321S0036.fits
+    science:
+    - ../api/test/ut220321/S20220321S0023.fits
+    - ../api/test/ut220321/S20220321S0038.fits
+    sky: []
+    standard: []
+    tilt:
+    - ../api/test/ut220321/S20220321S0022.fits
+    - ../api/test/ut220321/S20220321S0037.fits
+    trace:
+    - ../api/test/ut220321/S20220321S0021.fits
+    - ../api/test/ut220321/S20220321S0036.fits
