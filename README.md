@@ -9,7 +9,7 @@ Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatric
 
 
 #
-#
+
 DOWNLOADING GEMINI DATA 
 
 The important part is to obtain and save the cookie of the gemini search website. This cookie is used for downloading 
@@ -24,12 +24,11 @@ Once the cookie is saved, follow the instructions in api/Example.md to run the .
 Following the example this will save the downloaded data in a folder named /test.
 
 
-# 
+
 # 
 
 RUNNING PYPEIT
 
-First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
 First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
 
 The script controlling the pypeit run is /pypeit/gmos_reduce.py
@@ -42,10 +41,9 @@ I have added -o string in the code to run_pypeit overwritting the previous runs
 
 
 
-#
+
 #
 
-KNOWN ISSUES 
 KNOWN ISSUES 
 
 2/10/2024: 
