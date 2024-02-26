@@ -25,13 +25,11 @@ Following the example this will save the downloaded data in a folder named /test
 
 RUNNING PYPEIT
 
+First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
+
 The script controlling the pypeit run is /pypeit/reduce_gmos.py
 
-First enter the directory where all the observational data is (e.g., cd api/test), we will run pypeit from there. 
-
-
-
-this is an example for running reduce_gmos.py:      python reduce_gmos.py ../api/test/ut220321/  gmos_north  
+this is an example for running reduce_gmos.py from the /pypeit/ folder:      python reduce_gmos.py ../api/test/ut220321/  gmos_north  
 
 I have added -o string in the code to run_pypeit overwritting the previous runs
 
