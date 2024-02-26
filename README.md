@@ -5,7 +5,10 @@ Code, tools, and examples for planning and submitting observations, collecting d
 
 Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
+Based on Charlie Kilpatrick's code in github https://github.com/charliekilpatrick/gemini_frb_llp
 
+
+#
 #
 DOWNLOADING GEMINI DATA 
 
@@ -22,9 +25,11 @@ Following the example this will save the downloaded data in a folder named /test
 
 
 # 
+# 
 
 RUNNING PYPEIT
 
+First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
 First copy all the files in the /cals and /science directories created when downloading and paste them in /test/ut220321/ together with the other files.
 
 The script controlling the pypeit run is /pypeit/gmos_reduce.py
@@ -38,7 +43,9 @@ I have added -o string in the code to run_pypeit overwritting the previous runs
 
 
 #
+#
 
+KNOWN ISSUES 
 KNOWN ISSUES 
 
 2/10/2024: 
