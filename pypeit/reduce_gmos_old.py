@@ -32,7 +32,7 @@ def pypeit_setup(reddir, inst):
         print ('returning None in pypeit setup')
         return(None)
 
-    cmd = f'pypeit_setup -s {pinst} -r {reddir} -c all'   # -d {reddir}'
+    cmd = f'pypeit_setup -s {pinst} -r {reddir}  -c all' # -d {reddir} 
     print(cmd)
    
     os.system(cmd)
@@ -52,8 +52,9 @@ def parse_pypeit_files(reddir, inst):
 
     pdirs = glob.glob(os.path.join(reddir, pinst+'*'))
 
-    if len(pdirs)>0:
 
+    if len(pdirs)>0:
+        
         for pdir in pdirs:
             pfile = glob.glob(os.path.join(pdir, '*.pypeit'))
             if len(pfile)==1:
@@ -164,7 +165,8 @@ def run_pypeit_for_dir(reddir, inst):
     setup_data = merge_bias_data(setup_data)
     write_out_pypeit_files(reddir, inst, setup_data)
     add_params(reddir, inst, setup_data)
-    
+    print (setup_data.keys())
+    asdfa
     for key in sorted(list(setup_data.keys())):
         pypeit_file = key #os.path.join(reddir, key)
 

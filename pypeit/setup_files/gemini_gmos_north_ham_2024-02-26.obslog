@@ -1,5 +1,5 @@
 # Auto-generated PypeIt Observing Log
-# Wed 14 Feb 2024 15:23:23
+# Mon 26 Feb 2024 15:11:24
 
 |            filename |                 frametype |               ra |               dec |    target |    dispname |         decker | binning |              mjd |          airmass | exptime |    dichroic | dispangle |       datasec | calib | comb_id | bkg_id |
 | S20220317S0109.fits |                      bias |            147.0 |              89.9 |      Bias | B480+_G5327 |      0.5arcsec |     2,2 | 2022.20655029587 |              1.0 |     0.0 |     open1-6 |    1100.0 | [1:256,1:512] |     0 |      -1 |     -1 |
